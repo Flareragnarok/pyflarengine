@@ -1,0 +1,66 @@
+Turn order dictated by agility
+
+
+
+class: participant
+
+Static Stats:
+hp
+
+agility
+attack
+defense
+stamina/max tp
+
+battle intern:
+turn points
+turn point reduce
+
+
+Database with skills:
+attack (10tp i guess)S
+defend (increase tp gain of enemy by 1.5 on hit, act right after enemy (with no delay (unlessenemy uses defense break skills)), only useable when no other skill used)
+
+defense break (tp 20, gives player 5tp, 10tp if player defends, reduces defense for 5 tp)
+
+UI elements:
+HP
+TP
+
+
+todo: 
+participant grouping (enemy/player)
+participant stat screen 
+
+input in main loop
+    waiting for selection
+    selection in form of dict
+    cancelkey = s
+
+
+    S
+
+skill selection (with exampleskill)
+    database with skills
+    read output of database
+
+
+todo: 
+selectiontree: main
+a: action b: info c: equipment/loadout?
+a1: atk, defend, skills, flee(?), auto, info
+b1: playergroup, enemygroup
+b2: stats, equipment, effects (of eq)
+
+impementation
+turn(point) based battle
+
+grid:
+[[0,1,2,3,4],
+[5,6,7,8,9],
+[10,12,13,14]]
+
+
+
+
+
